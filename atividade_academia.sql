@@ -24,6 +24,7 @@ BEGIN
     );
 END;
 
+    
 IF OBJECT_ID(N'dbo.Cursos', N'U') IS NULL
 BEGIN
     CREATE TABLE Cursos(
